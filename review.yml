@@ -1,0 +1,19 @@
+name: Portal oficial Ayuntamiento de Rivas Vaciamadrid
+description: Portal oficial Ayuntamiento de Rivas Vaciamadrid CKAN open-data API live-verification for APIs.json cataloging.
+url: https://raw.githubusercontent.com/api-evangelist/datosabiertos-rivasciudad-es/refs/heads/main/review.yml
+created: '2026-06-04'
+modified: '2026-06-04'
+reviews:
+  - date: '2026-06-04'
+    rating: 4
+    summary: >-
+      Portal oficial Ayuntamiento de Rivas Vaciamadrid runs CKAN and exposes a live, standardized open-data catalog API. The
+      endpoint was probed and returned a valid CKAN JSON response reporting approximately 7 datasets.
+      Because it runs CKAN, the full standard action/search API surface is available and consistent with all other CKAN portals.
+    endpoints:
+      - url: https://datosabiertos.rivasciudad.es/api/3/action/package_search?rows=0
+        status: 200
+        note: Live CKAN API response verified during inventory probe.
+      - url: https://datosabiertos.rivasciudad.es
+        status: 200
+        note: Portal home.
