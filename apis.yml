@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://datosabiertos.rivasciudad.es/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/datosabiertos-rivasciudad-es-domain-security.yml
   - type: Website
     url: https://datosabiertos.rivasciudad.es
   - type: Documentation
