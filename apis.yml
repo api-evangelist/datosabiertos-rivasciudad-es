@@ -30,7 +30,7 @@ tags:
   - Spain
 created: '2026-06-04'
 modified: '2026-06-04'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: datosabiertos-rivasciudad-es:catalog
     name: Portal oficial Ayuntamiento de Rivas Vaciamadrid CKAN Action API
